@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-color: rgb(28, 28, 28);
+    --clock-text: rgb(0, 255, 242);
+    --button-color: rgb(184, 66, 172);
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+#btn-2412-toggle {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: var(--button-color);
+    margin: 100px auto 0 auto;
+    width: 250px;
+    height: 60px;
+    border-radius: 32px;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#clock-div {
+    width: 80%;
+    height: 200px;
+    margin: 150px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120pt;
+    font-weight: bold;
+    color: var(--clock-text);
+}
+
